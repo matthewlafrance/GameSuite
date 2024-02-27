@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         String games = "Tic-Tac-Toe, Chess, 2048";
-        System.out.println("Welcome to ....");
+        System.out.println("Welcome to Matthew's GameSuite");
         System.out.println("Please choose your game, current options are " + games);
         Scanner input = new Scanner(System.in);
         String game = input.nextLine();
